@@ -2,7 +2,7 @@
 ## Week 2
 ## Week 3
 ## Week 4
-  ` Java code
+  ``` Java code
   public class Map {
 	private int width;
 	private int height;
@@ -50,4 +50,4 @@
 			}
 		}
 	}
-  `
+  ```
