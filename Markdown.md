@@ -8,7 +8,7 @@
 	- Dit is normaal voor een gebruikelijke les.
 
 - Één les vindt plaats in één lokaal
-	- 
+	- Dit is normaal voor een gebruikelijke les.
 
 - Er zijn maximaal 12 leerlingen per klas.
 	- I.v.m. overzichtelijkheid.
@@ -20,10 +20,10 @@
 	- Er is voor deze hoeveelheid gekozen om het gelijk te houden aan het aantal klassen en leraren.
 
 - De dag begint om 08:00 tot 17:00.
-	- 
+	- Dit is normaal voor een schooldag.
 
 - De lessen kunnen ingeroosterd worden van 8:30 tot 16:30.
-	-
+	- d
 
 - Er zijn maximaal 6 docenten.
 	- Er is voor deze hoeveelheid gekozen om het gelijk te houden aan het aantal klassen.
