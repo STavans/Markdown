@@ -1,9 +1,44 @@
 # Markdown Sebastiaan Tromper
 ## Week 2
+### Beslissingen
+- Lessen worden door één leraar gegeven.
+
+- Één groep per les.
+
+- Een les vindt plaats in één lokaal
+
+- Er zijn 6 leslokalen.
+
+- Er zijn maximaal 12 leerlingen per klas.
+	- I.v.m. overzichtelijkheid.
+    
+- Er zijn 6 groepen studenten.
+	- I.v.m. overzichtelijkheid.
+	
+- De dag begint om 08:00 tot 17:00. 
+
+- De lessen kunnen ingeroosterd worden van 8:30 tot 16:30.
+
+- Er zijn maximaal 6 docenten.
+
+- Gaan we tabs, view venster gebruiken of laten we het zo?
+	- Tabs, het is dan een stuk meer overzichtelijker, simpeler en netter.
+
+- Hoe worden groepen aangemaakt in de GUI? Zit daar een maximum aan? Een minimum?
+	- Groepen worden voorgeprogrammeerd.
+
+- Zijn de vakken vast voor geprogrameerd. Zo ja, welke vakken zijn er?
+	- Ja, welke wordt nog gediscusseerd.
+
+- Als een groep leeg is, wat gebeurt er als een leraar les geeft aan een lege groep. (Als dat gebeurt)
+	- Die zijn niet leeg
+
+- Wat gebeurt er als alle groepen vol zijn en 'Generate Random' wordt gedrukt?
+	- Dan wordt er een fout melding gegeven.
 
 ## Week 3
 
-![Tilemap gemaakt:](/School simulatie tilemap.png "School simulatie tilemap")
+![Tilemap gemaakt:](/School simulatie tilemap.png)
 
 ## Week 4
 
