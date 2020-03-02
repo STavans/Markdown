@@ -3,6 +3,9 @@
 
 ## Week 3
 
+Tilemap gemaakt:
+
+![alt text](School simulatie tilemap.png)
 
 ## Week 4
 
