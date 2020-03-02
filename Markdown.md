@@ -1,5 +1,12 @@
 # Markdown Sebastiaan Tromper
 ## Week 2
+### Wat heb je gedaan?
+In deze week heb ik de lay-out gemaakt in balsamiq voor de agenda module.
+![Start scherm](https://github.com/STavans/Markdown/blob/master/Start%20Scherm.png "Start scherm")
+![Person manager](https://github.com/STavans/Markdown/blob/master/Person%20Manager.png "Person Manager")
+![Roster frame](https://github.com/STavans/Markdown/blob/master/Roster%20Frame.png "Roster frame")
+![Simulation](https://github.com/STavans/Markdown/blob/master/Simulation.png "Simulation")
+
 ### Beslissingen
 - Lessen worden door één leraar gegeven.
 	- Dit is normaal voor een gebruikelijke les en voor de simpelheid.
@@ -30,19 +37,56 @@
 - Wat gebeurt er als alle groepen vol zijn en 'Generate Random' wordt gedrukt?
 	- Dan wordt er een fout melding gegeven.
 	
-![Start scherm](https://github.com/STavans/Markdown/blob/master/Start%20Scherm.png "Start scherm")
-![Person manager](https://github.com/STavans/Markdown/blob/master/Person%20Manager.png "Person Manager")
-![Roster frame](https://github.com/STavans/Markdown/blob/master/Roster%20Frame.png "Roster frame")
-![Simulation](https://github.com/STavans/Markdown/blob/master/Simulation.png "Simulation")
-
 ## Week 3
-
-Tilemap gemaakt:
+### Wat heb je gedaan?
+In deze week heb ik de tilemap gemaakt voor de simulatie:
 ![School simulatie tilemap](https://github.com/STavans/Markdown/blob/master/School%20simulatie%20tilemap.png "School simulatie tilemap")
 
+Tevens heb ik gekeken naar de mogelijk om de lijst student, leraar en rooster op te slaan.
+
+Code voor opslaan:
+``` Java code
+try {
+            File teacherAdd = new File("Student.txt");
+            FileWriter teacherAddFr = new FileWriter(teacherAdd, true);
+            BufferedWriter teacherAddBr = new BufferedWriter(teacherAddFr);
+            teacherAddBr.write(studentNameField.getText() + "," + StudentGender + "," + StudentGroup + "\n");
+
+            teacherAddBr.close();
+            teacherAddFr.close();
+        }catch (IOException e){
+
+        }
+```
+
+Code voor veranderingen opslaan:
+``` Java code
+ try {
+            File inputFile = new File("Teacher.txt");
+            File tempFile = new File("TeacherTemp.txt");
+
+            BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile));
+
+            for (int i = 0; i < teachersTable.getItems().size(); i++){
+                writer.write(teachersTable.getItems().get(i).toString());
+            }
+
+            writer.close();
+            reader.close();
+
+            inputFile.delete();
+            tempFile.renameTo(new File("Teacher.txt"));
+        }catch (IOException e) {
+
+        }
+}
+```
+
 ## Week 4
-
-
+### Wat heb je gedaan?
+In deze week heb ik onderzoek gedaan naar JSON en geëxperimenteerd met wat we hebben.
+Ik heb uiteindelijk voor elkaar gekregen om de JSON file uit te lezen.
 
   ``` Java code
   public class Map {
