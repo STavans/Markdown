@@ -3,49 +3,42 @@
 ### Beslissingen
 - Lessen worden door één leraar gegeven.
 	- Dit is normaal voor een gebruikelijke les en voor de simpelheid.
-	
 - Één groep per les.
 	- Dit is normaal voor een gebruikelijke les.
-
 - Één les vindt plaats in één lokaal
 	- Dit is normaal voor een gebruikelijke les.
-
 - Er zijn maximaal 12 leerlingen per klas.
 	- I.v.m. overzichtelijkheid.
-    
 - Er zijn 6 groepen studenten.
 	- I.v.m. overzichtelijkheid.
-	
 - Er zijn 6 leslokalen.
 	- Er is voor deze hoeveelheid gekozen om het gelijk te houden aan het aantal klassen en leraren.
-
 - De dag begint om 08:00 tot 17:00.
-	- Dit is normaal voor een schooldag.
-
+	- Hiervoor is gekozen om een vaste begin en eindtijd vast te stellen voor de simulatie.
 - De lessen kunnen ingeroosterd worden van 8:30 tot 16:30.
-	- d
-
+	- Dit is normaal voor een schooldag.
 - Er zijn maximaal 6 docenten.
 	- Er is voor deze hoeveelheid gekozen om het gelijk te houden aan het aantal klassen.
-
 - Gaan we tabs, view venster gebruiken of laten we het zo?
 	- Tabs, het is dan een stuk meer overzichtelijker, simpeler en netter.
-
 - Hoe worden groepen aangemaakt in de GUI? Zit daar een maximum aan? Een minimum?
 	- Groepen worden voorgeprogrammeerd.
-
 - Zijn de vakken vast voor geprogrameerd. Zo ja, welke vakken zijn er?
 	- Ja, welke wordt nog gediscusseerd.
-
 - Als een groep leeg is, wat gebeurt er als een leraar les geeft aan een lege groep. (Als dat gebeurt)
-	- Die zijn niet leeg
-
+	- Die zijn niet leeg.
 - Wat gebeurt er als alle groepen vol zijn en 'Generate Random' wordt gedrukt?
 	- Dan wordt er een fout melding gegeven.
+	
+![Start scherm](https://github.com/STavans/Markdown/blob/master/Start%20Scherm.png "Start scherm")
+![Person manager]https://github.com/STavans/Markdown/blob/master/Person%20Manager.png "Person Manager")
+![Roster frame](https://github.com/STavans/Markdown/blob/master/Roster%20Frame.png "Roster frame")
+![Simulation](https://github.com/STavans/Markdown/blob/master/Simulation.png "Simulation")
 
 ## Week 3
 
-![Tilemap gemaakt:](https://github.com/STavans/Markdown/blob/master/School%20simulatie%20tilemap.png "School simulatie tilemap.png")
+Tilemap gemaakt:
+![School simulatie tilemap](https://github.com/STavans/Markdown/blob/master/School%20simulatie%20tilemap.png "School simulatie tilemap")
 
 ## Week 4
 
