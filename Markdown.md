@@ -3,9 +3,7 @@
 
 ## Week 3
 
-Tilemap gemaakt:
-
-![alt text](School simulatie tilemap.png)
+![Tilemap gemaakt:](/School simulatie tilemap.png "School simulatie tilemap")
 
 ## Week 4
 
