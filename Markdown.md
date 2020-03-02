@@ -2,7 +2,19 @@
 ## Week 2
 ## Week 3
 ## Week 4
-  `public Map(String fileName)
+  `
+  public class Map {
+	private int width;
+	private int height;
+
+	private int tileHeight;
+	private int tileWidth;
+
+	private ArrayList<BufferedImage> tiles = new ArrayList<>();
+
+	private int[][] map;
+
+	public Map(String fileName)
 	{
 		JsonReader reader = null;
 		reader = Json.createReader(getClass().getResourceAsStream(fileName));
