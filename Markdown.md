@@ -2,10 +2,10 @@
 ## Week 2
 ### Wat heb je gedaan?
 In deze week heb ik de lay-out gemaakt in balsamiq voor de agenda module.
-![Start scherm](Start%20Scherm.png "Start scherm")
-![Person manager](https://github.com/STavans/Markdown/blob/master/Person%20Manager.png "Person Manager")
-![Roster frame](https://github.com/STavans/Markdown/blob/master/Roster%20Frame.png "Roster frame")
-![Simulation](https://github.com/STavans/Markdown/blob/master/Simulation.png "Simulation")
+![Start scherm](Start%20Scherm.png "Start Scherm")
+![Person manager](Person%20Manager.png "Person Manager")
+![Roster frame](Roster%20Frame.png "Roster Frame")
+![Simulation](Simulation.png "Simulation")
 
 ### Beslissingen
 - Lessen worden door één leraar gegeven.
@@ -40,7 +40,7 @@ In deze week heb ik de lay-out gemaakt in balsamiq voor de agenda module.
 ## Week 3
 ### Wat heb je gedaan?
 In deze week heb ik de tilemap gemaakt voor de simulatie:
-![School simulatie tilemap](https://github.com/STavans/Markdown/blob/master/School%20simulatie%20tilemap.png "School simulatie tilemap")
+![School simulatie tilemap](School%20simulatie%20tilemap.png "School simulatie tilemap")
 
 Tevens heb ik gekeken naar de mogelijk om de lijst student, leraar en rooster op te slaan.
 
