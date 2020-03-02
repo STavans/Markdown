@@ -31,7 +31,7 @@
 	- Dan wordt er een fout melding gegeven.
 	
 ![Start scherm](https://github.com/STavans/Markdown/blob/master/Start%20Scherm.png "Start scherm")
-![Person manager]https://github.com/STavans/Markdown/blob/master/Person%20Manager.png "Person Manager")
+![Person manager](https://github.com/STavans/Markdown/blob/master/Person%20Manager.png "Person Manager")
 ![Roster frame](https://github.com/STavans/Markdown/blob/master/Roster%20Frame.png "Roster frame")
 ![Simulation](https://github.com/STavans/Markdown/blob/master/Simulation.png "Simulation")
 
