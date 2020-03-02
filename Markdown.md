@@ -7,7 +7,7 @@
 - Één groep per les.
 	- Dit is normaal voor een gebruikelijke les.
 
-- Een les vindt plaats in één lokaal
+- Één les vindt plaats in één lokaal
 	- 
 
 - Er zijn maximaal 12 leerlingen per klas.
@@ -45,7 +45,7 @@
 
 ## Week 3
 
-![Tilemap gemaakt:](https://github.com/STavans/Markdown/blob/master/School%20simulatie%20tilemap.png)
+![Tilemap gemaakt:](https://github.com/STavans/Markdown/blob/master/School%20simulatie%20tilemap.png "School simulatie tilemap.png")
 
 ## Week 4
 
