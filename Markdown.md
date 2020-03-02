@@ -2,12 +2,13 @@
 ## Week 2
 ### Beslissingen
 - Lessen worden door één leraar gegeven.
-
+	- Dit is normaal voor een gebruikelijke les en voor de simpelheid.
+	
 - Één groep per les.
+	- Dit is normaal voor een gebruikelijke les.
 
 - Een les vindt plaats in één lokaal
-
-- Er zijn 6 leslokalen.
+	- 
 
 - Er zijn maximaal 12 leerlingen per klas.
 	- I.v.m. overzichtelijkheid.
@@ -15,11 +16,17 @@
 - Er zijn 6 groepen studenten.
 	- I.v.m. overzichtelijkheid.
 	
-- De dag begint om 08:00 tot 17:00. 
+- Er zijn 6 leslokalen.
+	- Er is voor deze hoeveelheid gekozen om het gelijk te houden aan het aantal klassen en leraren.
+
+- De dag begint om 08:00 tot 17:00.
+	- 
 
 - De lessen kunnen ingeroosterd worden van 8:30 tot 16:30.
+	-
 
 - Er zijn maximaal 6 docenten.
+	- Er is voor deze hoeveelheid gekozen om het gelijk te houden aan het aantal klassen.
 
 - Gaan we tabs, view venster gebruiken of laten we het zo?
 	- Tabs, het is dan een stuk meer overzichtelijker, simpeler en netter.
@@ -38,7 +45,7 @@
 
 ## Week 3
 
-![Tilemap gemaakt:](/School simulatie tilemap.png)
+![Tilemap gemaakt:](https://github.com/STavans/Markdown/blob/master/School%20simulatie%20tilemap.png)
 
 ## Week 4
 
