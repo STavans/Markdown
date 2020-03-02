@@ -1,7 +1,13 @@
 # Markdown Sebastiaan Tromper
 ## Week 2
+
 ## Week 3
+
+
 ## Week 4
+
+
+
   ``` Java code
   public class Map {
 	private int width;
