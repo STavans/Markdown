@@ -2,7 +2,7 @@
 ## Week 2
 ### Wat heb je gedaan?
 In deze week heb ik de lay-out gemaakt in balsamiq voor de agenda module.
-![Start scherm](Start Scherm.png)
+![Start scherm](/Start Scherm.png "Start scherm")
 ![Person manager](https://github.com/STavans/Markdown/blob/master/Person%20Manager.png "Person Manager")
 ![Roster frame](https://github.com/STavans/Markdown/blob/master/Roster%20Frame.png "Roster frame")
 ![Simulation](https://github.com/STavans/Markdown/blob/master/Simulation.png "Simulation")
