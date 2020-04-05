@@ -334,7 +334,12 @@ public class Target {
 ```
 ## Reflectie op stelling
 ### In het bedrijfsleven wordt gebruik gemaakt van JavaFX
+In het bedrijfsleven wordt inderdaad nog steeds gebruik gemaakt van JavaFX. 
 
+
+
+#### Bronvermelding
+(https://techvidvan.com/tutorials/applications-of-java/)
 
 ## Applicaties die JSON gebruiken
 - Games, in games wordt heel veel data opgeslagen. Json kun je gebruiken om bijvoordbeeld informatie op the slaan voor sliders, key bindings en configurations.
