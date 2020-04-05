@@ -352,13 +352,13 @@ public class Target {
 ### In het bedrijfsleven wordt gebruik gemaakt van JavaFX
 In het bedrijfsleven wordt inderdaad nog steeds gebruik gemaakt van JavaFX. 
 Voorbeelden hiervan zijn:
--Trading App
--QuoteMonitor
--Deep Space Trajectory Explorer Nasa
--MINT TRMS
--Network Capacity Optimization Emirates Airline
--PSI Advanced Scheduling and Monitoring / ASM
--Navigator Lynden
+- Trading App
+- QuoteMonitor
+- Deep Space Trajectory Explorer Nasa
+- MINT TRMS
+- Network Capacity Optimization Emirates Airline
+- PSI Advanced Scheduling and Monitoring / ASM
+- Navigator Lynden
 
 Gebaseerd of deze informatie blijkt dat JavaFX nog redelijk wat gebruikt wordt in het bedrijfsleven. Voor sommige dingen wordt JavaFX gebruikt voor het maken van apps en andere wordt het gebruikt voor intern gebruik.
 
@@ -367,9 +367,9 @@ Gebaseerd of deze informatie blijkt dat JavaFX nog redelijk wat gebruikt wordt i
 
 ## Applicaties die JSON gebruiken
 - Games, Json kun je gebruiken om bijvoordbeeld informatie op the slaan voor sliders, key bindings en configurations. Dus het kan hiervoor geschikt zijn.
--Twitter, dit kan Json gebruiken om data snel en makkelijk over te sturen.
--Facebook, dit kan Json gebruiken om data snel en makkelijk over te sturen.
--Google Maps, dit kan Json gebruiken om data snel en makkelijk over te sturen.
+- Twitter, dit kan Json gebruiken om data snel en makkelijk over te sturen.
+- Facebook, dit kan Json gebruiken om data snel en makkelijk over te sturen.
+- Google Maps, dit kan Json gebruiken om data snel en makkelijk over te sturen.
 
 
 
