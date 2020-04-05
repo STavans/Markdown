@@ -366,7 +366,7 @@ Gebaseerd of deze informatie blijkt dat JavaFX nog redelijk wat gebruikt wordt i
 (https://www.educba.com/javafx-applications/)
 
 ## Applicaties die JSON gebruiken
-- Games, in games wordt heel veel data opgeslagen. Json kun je gebruiken om bijvoordbeeld informatie op the slaan voor sliders, key bindings en configurations.
+- Games, Json kun je gebruiken om bijvoordbeeld informatie op the slaan voor sliders, key bindings en configurations. Dus het kan hiervoor geschikt zijn.
 - Websites
 
 
