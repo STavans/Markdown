@@ -43,7 +43,7 @@ In deze week heb ik de lay-out gemaakt in balsamiq voor de agenda module.
 In deze week heb ik de tilemap gemaakt voor de simulatie:
 ![School simulatie tilemap](School%20simulatie%20tilemap.png "School simulatie tilemap")
 
-Tevens heb ik gekeken naar de mogelijk om de lijst student, leraar en rooster op te slaan.
+Tevens heb ik gekeken naar de mogelijk om de lijst student, leraar en rooster op te slaan. De mogelijkheid waar ik naar gekeken heb is fileIO. Het is gelukt om de gegevens op te slaan in een fileIO bestand, maar niet om de informatie eruit te halen.
 
 Code voor opslaan:
 ``` Java code
@@ -144,6 +144,7 @@ In deze week heb ik de animaties gemaakt voor de teachers en students voor naar 
 Dit richting is gebaseerd op de angle van waar ze naar toe moeten lopen.
 
 Code voor inladen sprites:
+Hier wordt de png file feitelijk in stukjes gehad en onderverdeeld in subimages.
 ``` Java code
 	if (this.genderTBST.get().equals("Female")) {
                 image = ImageIO.read(getClass().getResource("/Female.png"));
@@ -176,7 +177,9 @@ Code voor inladen sprites:
             right[i - 28] = image.getSubimage(64 * (i % 9), 64 * (i / 9), 64, 64);
         }
 ```
+
 Code voor bepalen welke richting
+Hier wordt afhankelijk van de waarde van de angle bepaald welke animatie er getekend moet worden.
 ``` Java code
 	if (angle > 0.8 && angle < 2.2) {
             walkingRight = false;
@@ -199,6 +202,18 @@ Code voor bepalen welke richting
             walkingUp = false;
             walkingDown = false;
         }
+	
+	public void draw(Graphics2D g) {
+        if (walkingRight) {
+            g.drawImage(right[(int) counter], getTransform(), null);
+        } else if (walkingLeft) {
+            g.drawImage(left[(int) counter], getTransform(), null);
+        } else if (walkingUp) {
+            g.drawImage(up[(int) counter], getTransform(), null);
+        } else if (walkingDown) {
+            g.drawImage(down[(int) counter], getTransform(), null);
+        }
+    }
 ```
 #### Beslissingen
 - Hoeveelheid layers verminderd naar 4 + target layers
@@ -206,7 +221,7 @@ Code voor bepalen welke richting
 
 ### Week 7
 #### Wat heb je gedaan?
-In deze week heb ik samen met Bart van Moorsel de Target class gemaakt. Deze class alle "targets" aan waar de studenten en leraren naar toe moet lopen.
+In deze week heb ik samen met Bart van Moorsel de Target class gemaakt. Deze class alle "targets" aan waar de studenten en leraren naar toe moet lopen. Met deze klasse is het mogelijk om alle informatie die nodig is uit de Json file te halen. Deze waardes zijn onder andere: X-coördinaat, Y-coördinaat, hoogte, breedte en middelpunt.
 
 ``` Java code
 import data.Classroom;
@@ -332,14 +347,23 @@ public class Target {
     }
 }
 ```
+
 ## Reflectie op stelling
 ### In het bedrijfsleven wordt gebruik gemaakt van JavaFX
 In het bedrijfsleven wordt inderdaad nog steeds gebruik gemaakt van JavaFX. 
+Voorbeelden hiervan zijn:
+-Trading App
+-QuoteMonitor
+-Deep Space Trajectory Explorer Nasa
+-MINT TRMS
+-Network Capacity Optimization Emirates Airline
+-PSI Advanced Scheduling and Monitoring / ASM
+-Navigator Lynden
 
-
+Gebaseerd of deze informatie blijkt dat JavaFX nog redelijk wat gebruikt wordt in het bedrijfsleven. Voor sommige dingen wordt JavaFX gebruikt voor het maken van apps en andere wordt het gebruikt voor intern gebruik.
 
 #### Bronvermelding
-(https://techvidvan.com/tutorials/applications-of-java/)
+(https://www.educba.com/javafx-applications/)
 
 ## Applicaties die JSON gebruiken
 - Games, in games wordt heel veel data opgeslagen. Json kun je gebruiken om bijvoordbeeld informatie op the slaan voor sliders, key bindings en configurations.
