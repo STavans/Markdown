@@ -1,13 +1,14 @@
 # Markdown Sebastiaan Tromper
-## Week 2
-### Wat heb je gedaan?
+## Wekelijkse reflectie
+### Week 2
+#### Wat heb je gedaan?
 In deze week heb ik de lay-out gemaakt in balsamiq voor de agenda module.
 ![Start scherm](Start%20Scherm.png "Start Scherm")
 ![Person manager](Person%20Manager.png "Person Manager")
 ![Roster frame](Roster%20Frame.png "Roster Frame")
 ![Simulation](Simulation.png "Simulation")
 
-### Beslissingen
+#### Beslissingen
 - Lessen worden door één leraar gegeven.
 	- Dit is normaal voor een gebruikelijke les en voor de simpelheid.
 - Één groep per les.
@@ -37,8 +38,8 @@ In deze week heb ik de lay-out gemaakt in balsamiq voor de agenda module.
 - Wat gebeurt er als alle groepen vol zijn en 'Generate Random' wordt gedrukt?
 	- Dan wordt er een fout melding gegeven.
 	
-## Week 3
-### Wat heb je gedaan?
+### Week 3
+#### Wat heb je gedaan?
 In deze week heb ik de tilemap gemaakt voor de simulatie:
 ![School simulatie tilemap](School%20simulatie%20tilemap.png "School simulatie tilemap")
 
@@ -83,8 +84,8 @@ Code voor veranderingen opslaan:
 }
 ```
 
-## Week 4
-### Wat heb je gedaan?
+### Week 4
+#### Wat heb je gedaan?
 In deze week heb ik onderzoek gedaan naar JSON en geëxperimenteerd met wat we hebben.
 Ik heb uiteindelijk voor elkaar gekregen om de JSON file uit te lezen.
 
@@ -137,11 +138,8 @@ Ik heb uiteindelijk voor elkaar gekregen om de JSON file uit te lezen.
 		}
 	}
   ```
-## Week 5
-### Wat heb je gedaan?
-
-## Week 6
-### Wat heb je gedaan?
+### Week 5
+#### Wat heb je gedaan?
 In deze week heb ik de animaties gemaakt voor de teachers en students voor naar links, rechts, boven en beneden.
 Dit richting is gebaseerd op de angle van waar ze naar toe moeten lopen.
 
@@ -202,8 +200,12 @@ Code voor bepalen welke richting
             walkingDown = false;
         }
 ```
-## Week 7
-### Wat heb je gedaan?
+#### Beslissingen
+- Hoeveelheid layers verminderd naar 4 + target layers
+	- 
+
+### Week 7
+#### Wat heb je gedaan?
 In deze week heb ik samen met Bart van Moorsel de Target class gemaakt. Deze class alle "targets" aan waar de studenten en leraren naar toe moet lopen.
 
 ``` Java code
@@ -330,3 +332,10 @@ public class Target {
     }
 }
 ```
+## Reflectie op stelling
+### In het bedrijfsleven wordt gebruik gemaakt van JavaFX
+
+
+## Applicaties die JSON gebruiken
+- Games, in games wordt heel veel data opgeslagen. Json kun je gebruiken om bijvoordbeeld informatie op the slaan voor sliders, key bindings en configurations.
+- Applicaties die puur gegevens bijhouden (denk aan Naam, address telefoonnummer, etc.)
