@@ -367,4 +367,9 @@ Gebaseerd of deze informatie blijkt dat JavaFX nog redelijk wat gebruikt wordt i
 
 ## Applicaties die JSON gebruiken
 - Games, in games wordt heel veel data opgeslagen. Json kun je gebruiken om bijvoordbeeld informatie op the slaan voor sliders, key bindings en configurations.
-- Applicaties die puur gegevens bijhouden (denk aan Naam, address telefoonnummer, etc.)
+- Websites
+
+
+
+## Notitie
+(https://github.com/STavans/Markdown.git)
